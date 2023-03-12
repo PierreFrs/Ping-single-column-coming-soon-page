@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Main Styling */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Logo */
+
+.logo {
+    width: 15%;
+    margin-top: 4rem;
+}
+
+/* Title */
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    margin-top: 1.6rem;
+    color: var(--Gray);
+}
+
+.title span {
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+}
+
+/* Description */
+
+.description {
+    font-size: 0.6rem;
+    color: var(--Very-Dark-Blue);
+    font-weight: 300;
+    margin-top: 0.75rem;
+}
+
+/* Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.6rem;
+    width: 80%;
+}
+
+.input {
+    width: 100%;
+
+}
+
+/* Illustration */
+
+/* Copyright */
+
+
+/* Media Query */
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 6%;
+    }
+
+    .title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+        margin-top: 2rem;
+    }
+}
