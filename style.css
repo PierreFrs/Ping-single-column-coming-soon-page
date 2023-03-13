@@ -78,6 +78,7 @@ form {
     gap: 0.5rem;
     margin-top: 1.6rem;
     width: 80%;
+    max-width: 637px;
 }
 
 #email {
