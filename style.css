@@ -129,6 +129,7 @@ form {
 .illustration {
     width: 90%;
     margin-top: 3.6rem;
+    max-width: 640px;
 }
 
 /* Social Media */
@@ -139,18 +140,22 @@ form {
     margin-top: 6rem;
 }
 
-.social-button {
-    width: 1.6rem;
-    height: 1.6rem;
+.fa-brands {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 5.5%;
     border: 1px solid var(--Pale-Blue);
     border-radius: 50%;
     background-color: white;
     cursor: pointer;
+    color: var(--Blue);
 }
 
-.fa-brands {
-    width: 50%;
-    color: var(--Blue);
+.fa-brands:hover {
+    background-color: var(--Blue);
+    color: white;
 }
 
 /* Copyright */
@@ -189,9 +194,9 @@ form {
     }
 
     .input-and-error {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
     }
 
     #email {
