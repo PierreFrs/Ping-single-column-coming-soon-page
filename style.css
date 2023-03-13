@@ -93,13 +93,16 @@ form {
 }
 
 .error {
-    border: 1px solid var(--Light-Red);
+    border: 1px solid var(--Light-Red) !important;
 }
 
-.error-message {
+#error-message {
     font-size: 0.5rem;
     font-style: italic;
     color: var(--Light-Red);
+    text-align: center;
+    margin-bottom: 0.5rem;
+    display: none;
 }
 
 #submit {
